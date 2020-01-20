@@ -1,4 +1,10 @@
-﻿$DPs = Get-Content "C:\TEMP\DPs.txt"
+<# 
+ScriptFunction: Gather information regarding a particular computer object's network settings﻿
+Author: Josh Kennedy
+Date: 2020/01/20
+#>
+
+$DPs = Get-Content "C:\TEMP\DPs.txt"
 $DPStatus = New-Object -TypeName psobject
 
 foreach ($DP in $DPs){
