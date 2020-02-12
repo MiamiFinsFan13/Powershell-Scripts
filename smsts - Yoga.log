@@ -1,0 +1,84 @@
+﻿<![LOG[LOGGING: Finalize process ID set to 344]LOG]!><time="08:49:38.068+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="1004" file="tslogging.cpp:1864">
+<![LOG[==============================[ TSBootShell.exe ]==============================]LOG]!><time="08:49:38.068+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="1004" file="bootshell.cpp:1206">
+<![LOG[Succeeded loading resource DLL 'X:\sms\bin\x64\1033\TSRES.DLL']LOG]!><time="08:49:38.068+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="1004" file="util.cpp:972">
+<![LOG[Debug shell is enabled]LOG]!><time="08:49:38.068+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="1004" file="bootshell.cpp:1217">
+<![LOG[Waiting for PNP initialization...]LOG]!><time="08:49:38.068+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:69">
+<![LOG[RAM Disk Boot Path: NET(0)\SMSIMAGES\OXE00007\BOOT.OXE00007.WIM]LOG]!><time="08:49:38.068+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="configpath.cpp:322">
+<![LOG[Booted from network (PXE)]LOG]!><time="08:49:38.068+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="configpath.cpp:337">
+<![LOG[Network(PXE) path: X:\sms\data\]LOG]!><time="08:49:38.068+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="configpath.cpp:339">
+<![LOG[Found config path X:\sms\data\]LOG]!><time="08:49:38.068+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:656">
+<![LOG[Booting from removable media, not restoring bootloaders on hard drive]LOG]!><time="08:49:38.068+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:721">
+<![LOG[X:\sms\data\WinPE does not exist.]LOG]!><time="08:49:38.068+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:738">
+<![LOG[X:\_SmsTsWinPE\WinPE does not exist.]LOG]!><time="08:49:38.068+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:752">
+<![LOG[Executing command line: wpeinit.exe -winpe]LOG]!><time="08:49:38.287+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:1011">
+<![LOG[Executing command line: X:\WINDOWS\system32\cmd.exe /k]LOG]!><time="08:49:39.351+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="1004" file="bootshell.cpp:1011">
+<![LOG[The command completed successfully.]LOG]!><time="08:49:39.351+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="1004" file="bootshell.cpp:1093">
+<![LOG[Successfully launched command shell.]LOG]!><time="08:49:39.351+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="1004" file="bootshell.cpp:444">
+<![LOG[The command completed successfully.]LOG]!><time="08:49:49.686+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:1093">
+<![LOG[Setting offline Windows drive and OS root directory to TS envirtonment.]LOG]!><time="08:49:49.686+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:806">
+<![LOG[  Processing volume D:\ ]LOG]!><time="08:49:49.686+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:549">
+<![LOG[  Volume D:\ is not a local hard drive.]LOG]!><time="08:49:49.686+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:552">
+<![LOG[  Processing volume G:\ ]LOG]!><time="08:49:49.686+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:549">
+<![LOG[  Volume G:\ is not a local hard drive.]LOG]!><time="08:49:49.686+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:552">
+<![LOG[  Processing volume C:\ ]LOG]!><time="08:49:49.686+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:549">
+<![LOG[OfflineRegistry::Init("C:\WINDOWS")]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="0" thread="440" file="offlineregistry.cpp:172">
+<![LOG[Loading offline registry hive "C:\WINDOWS\system32\config\software" into HKLM\OfflineRegistry1]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="0" thread="440" file="offlineregistry.cpp:64">
+<![LOG[Loading offline registry hive "C:\WINDOWS\system32\config\system" into HKLM\OfflineRegistry2]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="0" thread="440" file="offlineregistry.cpp:64">
+<![LOG[oRegKeyResult.Open(m_oRegKeySystem, sSubkey, uAccess), HRESULT=80070002 (..\offlineregistry.cpp,547)]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="0" thread="440" file="offlineregistry.cpp:547">
+<![LOG[Failed to open "SYSTEM\Select" (0x80070002).]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="2" thread="440" file="offlineregistry.cpp:547">
+<![LOG[CurrentControlSet is mapped to ControlSet001]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="0" thread="440" file="offlineregistry.cpp:236">
+<![LOG[oRegKeyResult.Open(m_oRegKeySystem, sSubkey, uAccess), HRESULT=80070002 (..\offlineregistry.cpp,542)]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="0" thread="440" file="offlineregistry.cpp:542">
+<![LOG[Failed to open "SYSTEM\CURRENTCONTROLSET" (0x80070002).]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="2" thread="440" file="offlineregistry.cpp:542">
+<![LOG[m_oOfflineRegistry.OpenKey( L"SYSTEM\\CURRENTCONTROLSET", ((((0x00020000L)) | (0x0001) | (0x0008) | (0x0010)) & (~(0x00100000L))), m_regControlSetKey ), HRESULT=80070002 (..\offlineos.cpp,752)]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="0" thread="440" file="offlineos.cpp:752">
+<![LOG[Found directory C:\WINDOWS that could contain an OS, but initialization failed. This directory probably doesn't contain an OS]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="0" thread="440" file="offlineos.cpp:79">
+<![LOG[Unloading offline SOFTWARE registry hive]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="0" thread="440" file="offlineregistry.cpp:299">
+<![LOG[Failed to unload registry hive from HKLM\OfflineRegistry1 (5)]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="2" thread="440" file="offlineregistry.cpp:304">
+<![LOG[Unloading offline SYSTEM registry hive]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="0" thread="440" file="offlineregistry.cpp:313">
+<![LOG[Failed to unload registry hive from HKLM\OfflineRegistry2 (5)]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="2" thread="440" file="offlineregistry.cpp:318">
+<![LOG[pOs != NULL, HRESULT=80070490 (..\offlineos.cpp,89)]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="0" thread="440" file="offlineos.cpp:89">
+<![LOG[Unable to find a Windows system root at C:\]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="offlineos.cpp:89">
+<![LOG[  Processing volume E:\ ]LOG]!><time="08:49:49.927+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:549">
+<![LOG[pOs != NULL, HRESULT=80070490 (..\offlineos.cpp,89)]LOG]!><time="08:49:49.944+480" date="02-11-2020" component="TSBootShell" context="" type="0" thread="440" file="offlineos.cpp:89">
+<![LOG[Unable to find a Windows system root at E:\]LOG]!><time="08:49:49.944+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="offlineos.cpp:89">
+<![LOG[  Processing volume F:\ ]LOG]!><time="08:49:49.944+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:549">
+<![LOG[pOs != NULL, HRESULT=80070490 (..\offlineos.cpp,89)]LOG]!><time="08:49:49.944+480" date="02-11-2020" component="TSBootShell" context="" type="0" thread="440" file="offlineos.cpp:89">
+<![LOG[Unable to find a Windows system root at F:\]LOG]!><time="08:49:49.944+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="offlineos.cpp:89">
+<![LOG[  Processing volume X:\ ]LOG]!><time="08:49:49.944+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:549">
+<![LOG[  Volume X:\ is not a local hard drive.]LOG]!><time="08:49:49.944+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:552">
+<![LOG[_OSDDetectedWinDrive='', _OSDDetectedWinDir='']LOG]!><time="08:49:49.944+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:603">
+<![LOG[Starting DNS client service.]LOG]!><time="08:49:49.944+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:817">
+<![LOG[Executing command line: X:\sms\bin\x64\TsmBootstrap.exe /env:WinPE /configpath:X:\sms\data\]LOG]!><time="08:49:50.457+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:1011">
+<![LOG[The command completed successfully.]LOG]!><time="08:49:50.457+480" date="02-11-2020" component="TSBootShell" context="" type="1" thread="440" file="bootshell.cpp:1093">
+<![LOG[==============================[ TSMBootStrap.exe ]==============================]LOG]!><time="08:49:50.485+480" date="02-11-2020" component="TSMBootstrap" context="" type="1" thread="1524" file="tsmbootstrap.cpp:1225">
+<![LOG[Command line: X:\sms\bin\x64\TsmBootstrap.exe /env:WinPE /configpath:X:\sms\data\]LOG]!><time="08:49:50.485+480" date="02-11-2020" component="TSMBootstrap" context="" type="0" thread="1524" file="tsmbootstrap.cpp:1226">
+<![LOG[Succeeded loading resource DLL 'X:\sms\bin\x64\1033\TSRES.DLL']LOG]!><time="08:49:50.485+480" date="02-11-2020" component="TSMBootstrap" context="" type="1" thread="1524" file="util.cpp:972">
+<![LOG[Succeeded loading resource DLL 'X:\sms\bin\x64\TSRESNLC.DLL']LOG]!><time="08:49:50.485+480" date="02-11-2020" component="TSMBootstrap" context="" type="1" thread="1524" file="resourceutils.cpp:169">
+<![LOG[Current OS version is 10.0.17134.0]LOG]!><time="08:49:53.704+480" date="02-11-2020" component="TSMBootstrap" context="" type="1" thread="1524" file="util.cpp:3618">
+<![LOG[Adding SMS bin folder "X:\sms\bin\x64" to the system environment PATH]LOG]!><time="08:49:53.704+480" date="02-11-2020" component="TSMBootstrap" context="" type="0" thread="1524" file="tsmbootstrap.cpp:1022">
+<![LOG[PXE Boot with Root = X:\]LOG]!><time="08:49:53.704+480" date="02-11-2020" component="TSMBootstrap" context="" type="1" thread="1524" file="tsmbootstrap.cpp:1121">
+<![LOG[Executing from PXE in WinPE]LOG]!><time="08:49:53.704+480" date="02-11-2020" component="TSMBootstrap" context="" type="1" thread="1524" file="tsmbootstrap.cpp:1136">
+<![LOG[Loading TsPxe.dll from X:\sms\bin\x64\TsPxe.dll]LOG]!><time="08:49:53.704+480" date="02-11-2020" component="TSMBootstrap" context="" type="0" thread="1524" file="tsmbootstraputil.cpp:1423">
+<![LOG[TsPxe.dll loaded]LOG]!><time="08:49:53.704+480" date="02-11-2020" component="TSPxe" context="" type="0" thread="1524" file="tsmbootstraputil.cpp:1433">
+<![LOG[Device has PXE booted]LOG]!><time="08:49:53.704+480" date="02-11-2020" component="TSPxe" context="" type="0" thread="1524" file="tspxe.cpp:125">
+<![LOG[Variable Path: \SMSTemp\2020.02.11.08.05.02.0007.{BEE5A51F-90CF-4623-AAEB-E0D43C53F7EF}.boot.var]LOG]!><time="08:49:53.704+480" date="02-11-2020" component="TSPxe" context="" type="0" thread="1524" file="tspxe.cpp:207">
+<![LOG[Succesfully added firewall rule for Tftp]LOG]!><time="08:49:53.704+480" date="02-11-2020" component="TSPxe" context="" type="0" thread="1524" file="fwopen.cpp:113">
+<![LOG[Attempt: 1.]LOG]!><time="08:49:53.704+480" date="02-11-2020" component="TSPxe" context="" type="1" thread="1524" file="tspxe.cpp:268">
+<![LOG[Executing: X:\sms\bin\x64\smstftp.exe get 10.200.50.30 \SMSTemp\2020.02.11.08.05.02.0007.{BEE5A51F-90CF-4623-AAEB-E0D43C53F7EF}.boot.var X:\sms\data\variables.dat]LOG]!><time="08:49:53.704+480" date="02-11-2020" component="TSPxe" context="" type="0" thread="1524" file="tspxe.cpp:270">
+<![LOG[Command line for extension .exe is "%1" %*]LOG]!><time="08:49:53.750+480" date="02-11-2020" component="TSPxe" context="" type="0" thread="1524" file="CommandLine.cpp:229">
+<![LOG[Set command line: "X:\sms\bin\x64\smstftp.exe" get 10.200.50.30 \SMSTemp\2020.02.11.08.05.02.0007.{BEE5A51F-90CF-4623-AAEB-E0D43C53F7EF}.boot.var X:\sms\data\variables.dat]LOG]!><time="08:49:53.750+480" date="02-11-2020" component="TSPxe" context="" type="0" thread="1524" file="CommandLine.cpp:723">
+<![LOG[Executing command line: "X:\sms\bin\x64\smstftp.exe" get 10.200.50.30 \SMSTemp\2020.02.11.08.05.02.0007.{BEE5A51F-90CF-4623-AAEB-E0D43C53F7EF}.boot.var X:\sms\data\variables.dat]LOG]!><time="08:49:53.750+480" date="02-11-2020" component="TSPxe" context="" type="1" thread="1524" file="CommandLine.cpp:819">
+<![LOG[Process completed with exit code 0]LOG]!><time="08:49:53.770+480" date="02-11-2020" component="TSPxe" context="" type="1" thread="1524" file="CommandLine.cpp:1115">
+<![LOG[Successfully downloaded PXE variable file.]LOG]!><time="08:49:53.770+480" date="02-11-2020" component="TSPxe" context="" type="1" thread="1524" file="tspxe.cpp:291">
+<![LOG[we are booted using PXE]LOG]!><time="08:49:53.770+480" date="02-11-2020" component="TSPxe" context="" type="1" thread="1524" file="tsmediawizardcontrol.cpp:2698">
+<![LOG[we are booted using PXE and we don't use a password or the password is provided by the user]LOG]!><time="08:49:53.770+480" date="02-11-2020" component="TSPxe" context="" type="1" thread="1524" file="tsmediawizardcontrol.cpp:2714">
+<![LOG[Found network adapter "Intel(R) Ethernet Connection (4) I219-LM" with IP Address 10.160.0.143.]LOG]!><time="08:49:53.770+480" date="02-11-2020" component="TSPxe" context="" type="0" thread="1524" file="tsmbootstraputil.cpp:588">
+<![LOG[Firewall service is already running.]LOG]!><time="08:49:53.770+480" date="02-11-2020" component="TSPxe" context="" type="1" thread="1524" file="libsmsmessaging.cpp:11600">
+<![LOG[Firewall service is already running.]LOG]!><time="08:49:53.770+480" date="02-11-2020" component="TSPxe" context="" type="1" thread="1524" file="libsmsmessaging.cpp:11600">
+<![LOG[ShellExecute ('raserver.exe') failed. 0x80070002.]LOG]!><time="08:49:53.786+480" date="02-11-2020" component="TSPxe" context="" type="2" thread="1524" file="tsmediawizardcontrol.cpp:2848">
+<![LOG[Run PXE Interactive]LOG]!><time="08:49:53.786+480" date="02-11-2020" component="TSPxe" context="" type="0" thread="1524" file="tsmediawizardcontrol.cpp:2882">
+<![LOG[Running Wizard in Interactive mode]LOG]!><time="08:49:53.786+480" date="02-11-2020" component="TSPxe" context="" type="1" thread="1524" file="tsmediawizardcontrol.cpp:2884">
+<![LOG[Loading Media Variables from "X:\sms\data\variables.dat"]LOG]!><time="08:49:53.786+480" date="02-11-2020" component="TSPxe" context="" type="1" thread="1524" file="tsremovablemedia.cpp:322">
+<![LOG[CryptDecrypt (hKey, 0, 1, 0, pData, &dwDecryptedLen), HRESULT=80090005 (..\windes.cpp,165)]LOG]!><time="08:49:53.786+480" date="02-11-2020" component="TSPxe" context="" type="0" thread="1524" file="windes.cpp:165">
+<![LOG[SMS::Crypto::DES::DecryptBuffer( (BYTE*)pszPassword, (DWORD)(wcslen(pszPassword)*sizeof(WCHAR)), encryptedBuffer.getBuffer(), (DWORD)encryptedBuffer.size(), pbDecryptedBuffer, dwDecryptedBufferSize ), HRESULT=80090005 (..\tsremovablemedia.cpp,387)]LOG]!><time="08:49:53.786+480" date="02-11-2020" component="TSPxe" context="" type="0" thread="1524" file="tsremovablemedia.cpp:387">
+<![LOG[Activating Welcome Page.]LOG]!><time="08:49:53.786+480" date="02-11-2020" component="TSPxe" context="" type="0" thread="1524" file="tsmediawelcomepage.cpp:131">
+<![LOG[Loading bitmap]LOG]!><time="08:49:53.801+480" date="02-11-2020" component="TSPxe" context="" type="1" thread="1524" file="tsmbootstrap.cpp:1331">
